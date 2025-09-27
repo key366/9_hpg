@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>九号轰趴馆-官网</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="开源九号轰趴馆全流程数据">
+    <meta name="author" content="Pingfan">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="首页">
+    <meta property="og:description" content="开源九号轰趴馆全流程数据">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.9thhpg.asia/">
+    
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="首页">
+    <meta name="twitter:description" content="开源九号轰趴馆全流程数据">
+    
+    
+    <!-- Performance Optimizations -->
+    <link rel="dns-prefetch" href="https://polyfill.io/">
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/">
+    <link rel="preconnect" href="https://polyfill.io/" crossorigin="">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net/" crossorigin="">
+    <link rel="preload" href="https://www.pingfan.me/fonts/LXGWWenKai-Regular.ttf" as="font" type="font/ttf" crossorigin="">
+    <link rel="preload" href="%E9%A6%96%E9%A1%B5%20-%20%E6%88%91%E6%9C%AC%E5%B9%B3%E5%87%A1_files/main.css" as="style">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="%E9%A6%96%E9%A1%B5%20-%20%E6%88%91%E6%9C%AC%E5%B9%B3%E5%87%A1_files/main.css">
+    <link rel="stylesheet" href="%E9%A6%96%E9%A1%B5%20-%20%E6%88%91%E6%9C%AC%E5%B9%B3%E5%87%A1_files/wenkai.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://www.pingfan.me/favicon.ico">
+    
+    <!-- Vercel Analytics -->
+    <script defer="defer" src="%E9%A6%96%E9%A1%B5%20-%20%E6%88%91%E6%9C%AC%E5%B9%B3%E5%87%A1_files/script.js"></script>
+    
+    <!-- 只在需要时加载外部资源 -->
+    
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="https://www.9thhpg.asia/">九号轰趴馆-官网</a>
+            </div>
+            <nav class="nav">
+                <a href="https://www.9thhpg.asia/" class="nav-link active">首页</a>
+                <a href="https://www.9thhpg.asia/Sale" class="nav-link">特价活动</a>
+                <a href="https://www.9thhpg.asia/photo" class="nav-link">照片</a>
+                <a href="https://www.9thhpg.asia/video" class="nav-link">视频</a>
+                <a href="https://www.9thhpg.asia/Game" class="nav-link">游戏</a>
+                <a href="https://www.9thhpg.asia/SocialResponsibility" class="nav-link">社会责任</a>
+                <a href="https://www.9thhpg.asia/STO" class="nav-link">定制服务</a>
+                <a href="https://www.9thhpg.asia/SanitaryStandards" class="nav-link">卫生标准</a>
+                <a href="https://www.9thhpg.asia/contactus" class="nav-link rss-link" target="_blank">联系我们</a>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <div class="blog-layout">
+
+        
+        <div class="pagination" id="pagination"></div>
+    </div>
+    
+    <aside class="blog-sidebar">
+
+        
+
+    </aside>
+</div>
+
+<style>
+.blog-layout {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.blog-content {
+    min-width: 0;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.post-card {
+    background: var(--bg-secondary);
+    border-radius: 12px;
+    padding: 2rem;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: var(--text-primary);
+    display: block;
+}
+
+.post-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
+.post-card h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.post-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.post-date {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.post-tags {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.post-tag {
+    background: var(--accent-color-light);
+    color: var(--accent-color);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.post-excerpt {
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.blog-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.sidebar-section {
+    background: var(--bg-secondary);
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 1px solid var(--border-color);
+}
+
+.sidebar-title {
+    margin: 0 0 1rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.blog-search {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.search-input {
+    flex: 1;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    font-size: 0.9rem;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+}
+
+.search-btn {
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--accent-color);
+    background: var(--accent-color);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.search-btn:hover {
+    background: var(--accent-color-dark);
+    border-color: var(--accent-color-dark);
+}
+
+.blog-tags-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag-filter {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border-color);
+    background: var(--bg-primary);
+    color: var(--text-secondary);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.tag-filter:hover,
+.tag-filter.active {
+    background: var(--accent-color);
+    color: white;
+    border-color: var(--accent-color);
+    text-decoration: none;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.pagination button {
+    padding: 0.75rem 1.5rem;
+    border: 1px solid var(--border-color);
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.pagination button:hover:not(:disabled) {
+    background: var(--accent-color);
+    color: white;
+    border-color: var(--accent-color);
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.pagination .page-info {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .blog-layout {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .post-card {
+        padding: 1.5rem;
+    }
+    
+    .post-card h2 {
+        font-size: 1.25rem;
+    }
+}
+</style>
+
+<script src="%E9%A6%96%E9%A1%B5%20-%20%E6%88%91%E6%9C%AC%E5%B9%B3%E5%87%A1_files/auto-loader.js"></script>
+
+<script src="%E9%A6%96%E9%A1%B5%20-%20%E6%88%91%E6%9C%AC%E5%B9%B3%E5%87%A1_files/main.js"></script>
+
+
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 9thphg. All rights reserved.</p>
+            <p>Powered by <a href="https://jekyllrb.com/" target="_blank">fur</a>  <a href="https://pages.github.com/" target="_blank"></a></p>
+        </div>
+    </footer>
+
+</body><div style="all: initial;"><div style="all: initial;" id="__hcfy__"></div></div></html>
