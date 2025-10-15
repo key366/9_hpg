@@ -38,6 +38,28 @@ jobs:
         run: |
           if [ -d dist ]; then du -sh dist || true; find dist -type f | wc -l || true; fi
 
+      - name: Validate Cloudflare Pages project
+        env:
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_PROJECT_NAME: ${{ secrets.CF_PROJECT_NAME }}
+        run: |
+          echo "Listing Pages projects for account ${CF_ACCOUNT_ID}..."
+          # list project names (may be empty)
+          curl -s -H "Authorization: Bearer ${CF_API_TOKEN}" \
+            "https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT_ID}/pages/projects" | jq -r '.result[]?.name' || true
+
+          echo "Checking project named: ${CF_PROJECT_NAME}"
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" -H "Authorization: Bearer ${CF_API_TOKEN}" \
+            "https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT_ID}/pages/projects/${CF_PROJECT_NAME}") || true
+
+          if [ "${STATUS}" != "200" ]; then
+            echo "Cloudflare Pages project '${CF_PROJECT_NAME}' not found (API returned status ${STATUS})."
+            echo "Please ensure the project exists in Cloudflare Pages and that the secret CF_PROJECT_NAME matches exactly."
+            echo "Also verify CF_API_TOKEN has Pages:Edit and Accounts:Read permissions scoped to the account."
+            exit 1
+          fi
+
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
