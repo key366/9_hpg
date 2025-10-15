@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>九号轰趴馆-官网</title>
+        <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6;  margin: 0 auto; padding: 20px; }
+        pre { background: #f4f4f4; padding: 10px; overflow-x: auto; }
+        code { background: #f4f4f4; padding: 2px 5px; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="开源九号轰趴馆全流程数据">
+    <meta name="author" content="Pingfan">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="关于 - 我本平凡">
+    <meta property="og:description" content="开源九号轰趴馆全流程数据">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.9thhpg.asia/">
+    
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="首页">
+    <meta name="twitter:description" content="开源九号轰趴馆全流程数据">
+    
+    
+    <!-- Performance Optimizations -->
+    <link rel="dns-prefetch" href="https://polyfill.io/">
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/">
+    <link rel="preconnect" href="https://polyfill.io/" crossorigin="">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net/" crossorigin="">
+    <link rel="preload" href="https://www.pingfan.me/fonts/LXGWWenKai-Regular.ttf" as="font" type="font/ttf" crossorigin="">
+    <link rel="preload" href="STO_files/main.css" as="style">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="STO_files/main.css">
+    <link rel="stylesheet" href="STO_files/wenkai.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://www.pingfan.me/favicon.ico">
+    
+    <!-- Vercel Analytics -->
+    <script defer="defer" src="STO_files/script.js"></script>
+    
+    <!-- 只在需要时加载外部资源 -->
+    
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="https://www.9thhpg.asia/">九号轰趴馆-定制服务</a>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link active">首页</a>
+                <a href="Sale.html" class="nav-link">特价活动</a>
+                <a href="photo.html" class="nav-link">照片</a>
+                <a href="video.html" class="nav-link">视频</a>
+                <a href="game.html" class="nav-link">游戏</a>
+                <a href="SocialResponsibility.html" class="nav-link">社会责任</a>
+                <a href="STO.html" class="nav-link">定制服务</a>
+                <a href="SanitaryStandards.html" class="nav-link">卫生标准</a>
+                <a href="about.html" class="nav-link rss-link" target="_blank">联系我们</a>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+
+
+            <div class = 'md-toc' style="text-align: right;position: fixed; bottom: 60%; right: 90%; background: rgba(0,0,255,0); width: 100px; height: 100px;" mdtype = 'toc' ><p class = "md-toc-content" role = "list" ><span
+                                role = "listitem" class = "md-toc-item md-toc-h2" data-ref = "n3006" >
+                            <a
+                                class = "md-toc-inner" href = "#目录" >目录                 </a ></span ><p> </p ><span role = "listitem"
+                                                                                          class = "md-toc-item md-toc-h1"
+                                                                                          data-ref = "n3016" >
+<a
+                                class = "md-toc-inner" href = "#代购" >代购</a ></span ><p> </p ><span role = "listitem"
+                                                                                          class = "md-toc-item md-toc-h1"
+                                                                                          data-ref = "n3081" ><a
+                                class = "md-toc-inner" href = "#场地布置" >场地布置</a ></span ><p> </p ><span role = "listitem"
+                                                                                              class = "md-toc-item md-toc-h1"
+                                                                                              data-ref = "n3099" ><a
+                                class = "md-toc-inner" href = "#摄影服务" >摄影服务 </a ></span ></p ><p> </p ></div >
+
+
+
+            <div class="about-content">
+
+                <body class = 'typora-export os-windows' >
+
+                <div class = 'typora-export-content' >
+
+                    <div id = 'write' class = '' >
+
+        <h1 id = '代购' ><span >代购</span ></h1 >
+                        <p ><a id = "R1" ></a >
+                            <span >为了给贵宾更好的聚会体验，我们提供无偿的代购服务，让您无需费心</span >
+                            <span >水、饮料、啤酒、蔬菜、水果、鲜肉和其他基础物资提供问题。</span ></p >
+                        <p ><span >  </span ></p >
+                        <figure class = 'table-figure' >
+                            <table >
+                                <thead >
+                                <tr >
+                                    <th ><span >山姆超市</span ></th >
+                                    <th >&nbsp;</th >
+                                    <th >&nbsp;</th >
+                                </tr >
+                                </thead >
+                                <tbody >
+                                <tr >
+                                    <td >&nbsp;</td >
+                                    <td ><span >焦糖千层蛋糕</span ></td >
+                                    <td ><span >80元/个</span ></td >
+                                </tr >
+                                <tr >
+                                    <td >&nbsp;</td >
+                                    <td ><span >酸奶芝士蛋糕</span ></td >
+                                    <td ><span >100元/个</span ></td >
+                                </tr >
+                                <tr >
+                                    <td >&nbsp;</td >
+                                    <td ><span >苏丹王榴莲蛋糕</span ></td >
+                                    <td ><span >110元/1个，1KG</span ></td >
+                                </tr >
+                                <tr >
+                                    <td >&nbsp;</td >
+                                    <td ><span >喜力啤酒</span ></td >
+                                    <td ><span >7元/1罐</span ></td >
+                                </tr >
+                                <tr >
+                                    <td >&nbsp;</td >
+                                    <td ><span >嘉士伯进口啤酒</span ></td >
+                                    <td ><span >5.5元/1罐</span ></td >
+                                </tr >
+                                <tr >
+                                    <td ><strong ><span >财大小吃街</span ></strong ></td >
+                                    <td >&nbsp;</td >
+                                    <td >&nbsp;</td >
+                                </tr >
+                                <tr >
+                                    <td >&nbsp;</td >
+                                    <td ><span >袁星驰汉堡</span ></td >
+                                    <td ><span >6元/个现做现卖，肉馅鲜嫩多汁，可搭配辣椒粉食用</span ></td >
+                                </tr >
+                                <tr >
+                                    <td >&nbsp;</td >
+                                    <td ><span >蒲春蓉白莲藕粉</span ></td >
+                                    <td ><span >5元/份起，料超丰富（红豆、花生等），韩国美食家白钟元曾打卡</span ></td >
+                                </tr >
+                                <tr >
+                                    <td >&nbsp;</td >
+                                    <td ><span >烤生蚝</span ></td >
+                                    <td ><span >10元/11个，蒜蓉酱风味突出</span ></td >
+                                </tr >
+                                <tr >
+                                    <td >&nbsp;</td >
+                                    <td ><span >小豪生煎</span ></td >
+                                    <td ><span >10元/4个，爆汁</span ></td >
+                                </tr >
+                                <tr >
+                                    <td ><strong ><span >菜市场</span ></strong ></td >
+                                    <td >&nbsp;</td >
+                                    <td >&nbsp;</td >
+                                </tr >
+                                <tr >
+                                    <td >&nbsp;</td >
+                                    <td ><span >新鲜蔬菜</span ></td >
+                                    <td >&nbsp;</td >
+                                </tr >
+                                <tr >
+                                    <td >&nbsp;</td >
+                                    <td ><span >新鲜猪肉</span ></td >
+                                    <td >&nbsp;</td >
+                                </tr >
+                                </tbody >
+                            </table >
+                        </figure >
+                        <p >&nbsp;</p >
+
+                        <h1 id = '场地布置' ><span >场地布置</span ></h1 >
+                        <p ><span >小预算 武汉气球上门布置活动 宝宝宴 生日宴 求婚派对 婚房布置 等</span >
+                            <span >接求婚浪漫惊喜场景创意布置，生日惊喜场景布置，网红场景布置</span ></p >
+                        <p ><span >需要你自备装饰材料并提供给我场景效果图（材料需自备！我只负责出技术）#生日布置  #婚庆节日布置 </span ></p >
+                        <p ><span >需要至少提前1天预约，不接受临时单。</span ></p >
+                        <p ><span >为了达到更好的效果当天需要给我们留足不低于4小时的上门布置装饰时间。</span ></p >
+                        <p ><span >（非专业团队，挣钱不易，请手下留情）</span >
+                            <span >以下均为实拍效果图</span ></p >
+                        <figure class = 'table-figure' >
+                            <table >
+                                <thead >
+                                <tr >
+                                    <th style = 'text-align:center;' >&nbsp;</th >
+                                    <th style = 'text-align:center;' >&nbsp;</th >
+                                </tr >
+                                </thead >
+                                <tbody >
+                                <tr >
+                                    <td style = 'text-align:center;' ><img src = "img.png" alt = "img.png" width = "250"
+                                                                           height = "150" /></td >
+                                    <td style = 'text-align:center;' ><img src = "img_1.png" alt = "img_1.png"
+                                                                           width = "250" height = "150" /></td >
+                                </tr >
+                                <tr >
+                                    <td style = 'text-align:center;' ><img src = "img_2.png" alt = "img_2.png"
+                                                                           width = "250" height = "150" /></td >
+                                    <td style = 'text-align:center;' ><img src = "img_3.png" alt = "img_3.png"
+                                                                           width = "250" height = "150" /></td >
+                                </tr >
+                                </tbody >
+                            </table >
+                        </figure >
+
+                        <h1 id = '摄影服务' ><span >摄影服务 </span ></h1 >
+                        <p ><a id = "R3" ></a ></p >
+                        <p ><span >武汉活动拍摄，会议拍摄，宣传片拍摄</span >
+                            <span >照片直播，腾讯会议连线，视频多机位直播，8-12米摇臂</span >
+                            <span >武汉拍照，武汉摄影师，武汉摄影摄像，商业摄影，微课拍摄，会议拍摄，活动拍摄。</span >
+                            <span >人像写真摄影，承接与公司的合作，商业大小型活动拍摄，会议拍摄，集体照毕业照拍摄等...</span ></p >
+                        <ul >
+                            <li ><p ><span >全画幅相机：索尼a7m4，数码摄像机索尼Z280</span ></p ></li >
+                            <li ><p ><span >镜头组： 16-35，24-70 ，70-200等</span ></p ></li >
+                            <li ><p ><span >拍视频三脚架稳定器：斯莫格，大疆RS3，RS4</span ></p ></li >
+                            <li ><p ><span >补光灯柔光灯闪光灯：神牛，</span ></p ></li >
+                            <li ><p ><span >灯光组，镜头遮光罩齐全。</span ></p ></li >
+                        </ul >
+                        <p ><span >服务内容：</span ></p >
+                        <ol start = '' >
+                            <li ><p ><span >需求沟通梳理</span ></p ></li >
+                            <li ><p ><span >初稿方案2版</span ></p ></li >
+                            <li ><p ><span >稿件细化方案不限</span ></p ></li >
+                            <li ><p ><span >终板不满意退款。</span ></p ></li >
+                        </ol >
+
+                        <p >&nbsp;</p ></div >
+                </div >
+                </body >
+
+
+
+
+
+
+
+
+
+</div>
+
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 9thphg. All rights reserved.</p>
+            <p>Powered by <a href="https://jekyllrb.com/" target="_blank">fur</a>  <a href="https://pages.github.com/" target="_blank"></a></p>
+        </div>
+    </footer>
+
+<div style="all: initial;"><div style="all: initial;" id="__hcfy__"></div></div><div style="all: initial;"><div style="all: initial;" id="__hcfy__"></div></div></body><div style="all: initial;"><div style="all: initial;" id="__hcfy__"></div></div></html>

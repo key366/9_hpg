@@ -1,0 +1,49 @@
+name: Build and deploy to Cloudflare Pages
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install build dependencies
+        run: |
+          python -m venv .venv
+          source .venv/bin/activate
+          pip install --upgrade pip
+          pip install -r tools/requirements.txt
+
+      - name: Build site (generate dist)
+        run: |
+          source .venv/bin/activate
+          python tools/optimize_site.py --src . --out dist
+
+      - name: Show dist summary
+        run: |
+          if [ -d dist ]; then du -sh dist || true; find dist -type f | wc -l || true; fi
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          projectName: ${{ secrets.CF_PROJECT_NAME }}
+          directory: ./dist
+
+      - name: Post-deploy info
+        run: |
+          echo "Deployed to Cloudflare Pages (project from secret CF_PROJECT_NAME). If you don't see the site, check Pages dashboard and Action logs."

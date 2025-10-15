@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>九号轰趴馆-官网</title>
+                <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6;  margin: 0 auto; padding: 20px; }
+        pre { background: #f4f4f4; padding: 10px; overflow-x: auto; }
+        code { background: #f4f4f4; padding: 2px 5px; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="开源九号轰趴馆全流程数据">
+    <meta name="author" content="Pingfan">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="关于 - 我本平凡">
+    <meta property="og:description" content="开源九号轰趴馆全流程数据">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.9thhpg.asia/">
+    
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="首页">
+    <meta name="twitter:description" content="开源九号轰趴馆全流程数据">
+    
+    
+    <!-- Performance Optimizations -->
+    <link rel="dns-prefetch" href="https://polyfill.io/">
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/">
+    <link rel="preconnect" href="https://polyfill.io/" crossorigin="">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net/" crossorigin="">
+    <link rel="preload" href="https://www.pingfan.me/fonts/LXGWWenKai-Regular.ttf" as="font" type="font/ttf" crossorigin="">
+    <link rel="preload" href="video_files/main.css" as="style">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="video_files/main.css">
+    <link rel="stylesheet" href="video_files/wenkai.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://www.pingfan.me/favicon.ico">
+    
+    <!-- Vercel Analytics -->
+    <script defer="defer" src="video_files/script.js"></script>
+    
+    <!-- 只在需要时加载外部资源 -->
+    
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="https://www.9thhpg.asia/">九号轰趴馆-视频</a>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link active">首页</a>
+                <a href="Sale.html" class="nav-link">特价活动</a>
+                <a href="photo.html" class="nav-link">照片</a>
+                <a href="video.html" class="nav-link">视频</a>
+                <a href="game.html" class="nav-link">游戏</a>
+                <a href="SocialResponsibility.html" class="nav-link">社会责任</a>
+                <a href="STO.html" class="nav-link">定制服务</a>
+                <a href="SanitaryStandards.html" class="nav-link">卫生标准</a>
+                <a href="about.html" class="nav-link rss-link" target="_blank">联系我们</a>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <div class="about-content">
+
+
+<div id='write'  class=''><h1 id='视频'><span>视频</span></h1><p>&nbsp;</p><p><img src="photo_files/640_003.gif" referrerpolicy="no-referrer" alt="假装有视频"></p><p>&nbsp;</p><p><span>点击下方抖音链接,观看视频，谢谢您!</span></p><figure class='table-figure'><table><thead><tr><th><span>抖音</span></th><th>&nbsp;</th><th>&nbsp;</th></tr></thead><tbody><tr><td>&nbsp;</td><td><a href='https://www.douyin.com/user/MS4wLjABAAAALLtOkbfxs1Q_PTMK8PrnZATb0h6Bn4IaaXjC7MysmNOQTxp6ET7EVP7nkz2XwFKG?from_tab_name=main&amp;modal_id=7543154446004522274' target='_blank'><span>珍珍带你逛九号轰趴馆</span></a></td><td><span>了解场地</span></td></tr><tr><td>&nbsp;</td><td><a href='https://www.douyin.com/user/MS4wLjABAAAALLtOkbfxs1Q_PTMK8PrnZATb0h6Bn4IaaXjC7MysmNOQTxp6ET7EVP7nkz2XwFKG?from_tab_name=main&amp;modal_id=7542730432605883682' target='_blank'><span>九号轰趴馆（中南财大店）价格</span></a></td><td><span>价目表公示</span></td></tr><tr><td>&nbsp;</td><td><a href='https://www.douyin.com/user/MS4wLjABAAAALLtOkbfxs1Q_PTMK8PrnZATb0h6Bn4IaaXjC7MysmNOQTxp6ET7EVP7nkz2XwFKG?from_tab_name=main&amp;modal_id=7557676151569730879' target='_blank'><span>秋季限定！『炭火狂欢节』落叶与炭火的约会</span></a></td><td><span>秋季活动</span></td></tr><tr><td>&nbsp;</td><td><a href='https://www.douyin.com/user/MS4wLjABAAAALLtOkbfxs1Q_PTMK8PrnZATb0h6Bn4IaaXjC7MysmNOQTxp6ET7EVP7nkz2XwFKG?from_tab_name=main&amp;modal_id=7551753455359053108' target='_blank'><span>解锁隐藏挑战_九号轰趴馆解锁隐藏挑战</span></a></td><td><span>社会责任和广告</span></td></tr><tr><td>&nbsp;</td><td><a href='https://www.douyin.com/user/MS4wLjABAAAALLtOkbfxs1Q_PTMK8PrnZATb0h6Bn4IaaXjC7MysmNOQTxp6ET7EVP7nkz2XwFKG?from_tab_name=main&amp;modal_id=7545135308744985866' target='_blank'><span>公司团建活动策划</span></a></td><td><span>公司团建ppt参考</span></td></tr><tr><td>&nbsp;</td><td><a href='https://www.douyin.com/user/MS4wLjABAAAALLtOkbfxs1Q_PTMK8PrnZATb0h6Bn4IaaXjC7MysmNOQTxp6ET7EVP7nkz2XwFKG?from_tab_name=main&amp;modal_id=7541230397549350163' target='_blank'><span>财大小吃街排队榜单前九名</span></a></td><td><span>代购店铺推荐</span></td></tr><tr><td>&nbsp;</td><td><a href='https://www.douyin.com/user/MS4wLjABAAAALLtOkbfxs1Q_PTMK8PrnZATb0h6Bn4IaaXjC7MysmNOQTxp6ET7EVP7nkz2XwFKG?from_tab_name=main&amp;modal_id=7548316615662734626' target='_blank'><span>「00后开学据点曝光人均30+玩疯10小时的爆款</span></a></td><td><span>定制服务</span></td></tr><tr><td><span>美团</span></td><td><span>九号轰趴馆中南财大</span></td><td><span>点赞、收藏、关注</span></td></tr><tr><td><span>快手</span></td><td><span>九号轰趴馆（中南财大店</span></td><td><span>点赞、收藏、关注</span></td></tr><tr><td><span>新浪微博</span></td><td><span>九号轰趴馆中南财大店</span></td><td><span>点赞、收藏、关注</span></td></tr><tr><td><span>小红书</span></td><td><span>九号轰趴馆中南财大</span></td><td><span>点赞、收藏、关注</span></td></tr><tr><td><span>微信视频号</span></td><td><span>九号轰趴馆</span></td><td><span>点赞、收藏、关注</span></td></tr><tr><td><span>抖音</span></td><td><span>九号·团建聚会别墅轰趴馆（中…</span></td><td><span>点赞、收藏、关注</span></td></tr><tr><td><span>知乎</span></td><td><span>九号轰趴馆财大</span></td><td><span>点赞、收藏、关注</span></td></tr><tr><td><span>喜马拉雅</span></td><td><span>九号轰趴馆中南财大店</span></td><td><span>点赞、收藏、关注</span></td></tr><tr><td><span>哗哩哗哩</span></td><td><span>九号轰趴馆中南财大</span></td><td><span>点赞、收藏、关注</span></td></tr><tr><td><span>头条号</span></td><td><span>九号·团建聚会别墅轰趴馆（中.</span></td><td><span>点赞、收藏、关注</span></td></tr><tr><td><span>企鹅号</span></td><td><span>九号轰趴馆中南财大</span></td><td><span>点赞、收藏、关注</span></td></tr><tr><td><span>淘宝光合</span></td><td><span>九号轰趴馆中南财大</span></td><td><span>点赞、收藏、关注</span></td></tr><tr><td><span>拼多多</span></td><td><span>九号轰趴馆 (中南财大)</span></td><td><span>点赞、收藏、关注</span></td></tr><tr><td><span>爱奇艺号</span></td><td><span>九号轰趴馆中南财大</span></td><td><span>点赞、收藏、关注</span></td></tr><tr><td><span>搜狐视频</span></td><td><span>九号轰趴馆中南财大店</span></td><td><span>点赞、收藏、关注</span></td></tr><tr><td><span>优酷</span></td><td><span>九号轰趴馆中南财大</span></td><td><span>点赞、收藏、关注</span></td></tr><tr><td><span>斗鱼</span></td><td><span>九号轰趴馆中南财大店</span></td><td><span>点赞、收藏、关注</span></td></tr><tr><td><span>虎牙</span></td><td><span>九号轰趴馆中南财大店</span></td><td><span>点赞、收藏、关注</span></td></tr><tr><td><span>美拍</span></td><td><span>九号轰趴馆中南财大店</span></td><td><span>点赞、收藏、关注</span></td></tr><tr><td><span>支付宝</span></td><td><span>九号轰趴馆中南财大店</span></td><td><span>点赞、收藏、关注</span></td></tr><tr><td><span>AcFun</span></td><td><span>九号轰趴馆中南财大</span></td><td><span>点赞、收藏、关注</span></td></tr><tr><td><span>雪球号</span></td><td><span>九号轰趴馆中南财大</span></td><td><span>点赞、收藏、关注</span></td></tr><tr><td><span>京东达人</span></td><td><span>九号轰趴馆财大南湖</span></td><td><span>点赞、收藏、关注</span></td></tr></tbody></table></figure><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div></div>
+
+
+</div>
+
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 9thphg. All rights reserved.</p>
+            <p>Powered by <a href="https://jekyllrb.com/" target="_blank">fur</a>  <a href="https://pages.github.com/" target="_blank"></a></p>
+        </div>
+    </footer>
+
+<div style="all: initial;"><div style="all: initial;" id="__hcfy__"></div></div><div style="all: initial;"><div style="all: initial;" id="__hcfy__"></div></div></body><div style="all: initial;"><div style="all: initial;" id="__hcfy__"></div></div></html>
